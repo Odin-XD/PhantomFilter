@@ -165,9 +165,6 @@ const char* g_TargetFileList[] = {
 git clone https://github.com/yourusername/PhantomFilter.git
 cd PhantomFilter
 
-# Build the driver
-build_infinity.bat
-
 # Install driver
 sc create phantomfilter type= kernel binPath= "C:\path\to\PhantomFilter.sys"
 sc start phantomfilter
